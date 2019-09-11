@@ -87,7 +87,7 @@ users.get('/profile', (req, res) => {
             if (user) {
                 res.json(user)
             } else {
-                res.send("User does not exist")
+                res.send("User does not exists")
             }
         })
         .catch(err => {
